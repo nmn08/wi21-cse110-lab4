@@ -18,19 +18,31 @@
     e. Access the first index in the array of the courseLoad property of the student object: student.courseLoad[0]
 14. Arithmetric:
     a. 32: '3' is a string then plus sign '+' treated 2 as a string and do concatenation so '3' + 2 = '3' + '2' = '32'
+
     b. 1: '3' evals to 3 because of using minus sign '-', so '3' - 2 = 3 - 2 = 1
+
     c. 3: null evals to 0 because before '+' sign is a numeric data type, so 3 + null = 3 + 0 = 3
+
     d. 3null: null evals to 'null' because before '+' sign is a string data type, so '3' + null = '3' + 'null' = '3null'
+
     e. 4: true evals to 1 so true + 3 = 1 + 3 = 4
+
     f. 0: false evals to 0 and null evals to 0 so false + null = 0 + 0 = 0
+
     g. 3undefined: undefined evals to 'undefined' so "3" + undefined = "3" + "undefined" = "3undefined"
+
     h. NaN: because of using minus sign '-' it will evals "3" to 3 so "3" - undefined = 3 - undefined = NaN
 15. Comparison
     a. true: '2' evals to 2 because it compares to a numeric data type, so 2 > 1 is true
+
     b. false: compare string with a string and '2' is bigger than the first character '1' in '12'
+
     c. true: '2' evals to 2 because it compares to a numeric data type, so 2 == 2 is true
+
     d. false: === is strict equality which require both value and type are the same, '2' and 2 are different data type
+
     e. false: true evals to 1, so true == 2 <=> 1 == 2 which is false
+    
     f. true: Boolean(2) return true, so true === true is true
 16. === is strict equality, this means both type and value are the same. While == only need value to be the same.
 17. Print: "How are you?". Because in the first condition, it treat true as 1, then 2 == true will return false. In the second condition, everything not 0 will be treated as true, therefore this if-else statement will be executed.
