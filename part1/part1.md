@@ -59,7 +59,7 @@
 
     Therefore, each value of the array will be increased by 2 before multiply by 2.
 20. [part1-question20.js](part1-question20.js)
-
+21. 
 
 1
 
